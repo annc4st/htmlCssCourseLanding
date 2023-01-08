@@ -7,7 +7,118 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Hello Html</h1>
+    <header>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#service">Service</a>
+            <a href="#contact"> Contacts</a>
+        </nav>
+        <h1> Hello, Dog</h1>
+
+    </header>
+    <img width="400" height = auto src="img/20181007_140650_12.jpg" alt="Hriasia">
+    
+    <div id="about">
+        <h3><span style="color:blue">About Us</span></h3>
+        <p>
+            Welcome to our dog and other animals shelter. Here you can find a friend or help other people to find their 4legged friends.
+        </p>
+    </div>
+
+    <div id="services"></div>
+
+    <h4>What we do</h4>
+
+    <div >
+        <ul>
+            <li><a href="#rentdog">Rent a dog</a></li>
+            <li><a href="#adoptdog">Adopt a dog</a></li>
+            <li><a href="#donate">Donate to support shelter</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#contact">Ask a question</a></li>
+        </ul>
+    </div>
+
+    <h3> Table without contents ..</h3>
+    <table>
+        <tr>
+            <td> first cell</td>
+            <td> second cell.</td>
+            <td>third cell.</td>
+            <td>fourth cell.</td>
+          </tr>
+        <tr>
+            <td> first cell.</td>
+            <td> second cell.</td>
+            <td>third cell.</td>
+            <td>fourth cell.</td>
+
+        </tr>
+    </table>
+    <hr>
+
+
+    <div id="contact">
+        <h3><span style="color:orangered">Contact</span></h3>
+        <form action="URL">
+            <p>First name:</p>
+            <input type="text" placeholder="First name" required>
+            <p>Last name:</p>
+            <input type="text" placeholder="Last name" required>
+            <p>Email:</p>
+            <input type="email" placeholder="example@email.com" required>
+            <p>Phone number:</p>
+            <input type="tel" placeholder="+3801234567" required>
+       
+            <p><label for="message">Message: </label></p>
+
+
+            <p><textarea id="message" name="w3review" rows="4" cols="50"> Enter your query here</textarea></p>
+           
+            <p> Please attach your document here.</p>
+
+            <input type="file" placeholder="Choose file">
+
+            <input type='submit' value='Send'>
+        </form>
+        <br>
+
+    </div>
+    <hr>
+
+    <div id="career">
+        <h3><span style="color:green">Help needed</span></h3>
+        <p>If you like dogs and want to help looking after our shelter dogs, just fill in a form below</p>
+        <form action="URL">
+            <p>First name:</p>
+            <input type="text" placeholder="First name" required>
+            <p>Last name:</p>
+            <input type="text" placeholder="Last name" required>
+            <p>Email:</p>
+            <input type="email" placeholder="example@email.com" required>
+            <p>Phone number:</p>
+            <input type="text" placeholder="+3801234567" required>
+          
+            <p><label for="start">Choose your preferred date:</label></p>
+            <p><input type="date"  min="2023-02-01" max="2023-12-30" ></p>
+
+                             
+            <p></p>
+        </form>
+        <br>
+
+    </div>
+
+    <footer>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#service">Service</a>
+            <a href="#contact"> Contacts</a>
+        </nav>
+        <p>Copyright bla-bla, 2023</p>
+
+    </footer>
+
 
 </body>
 </html>
