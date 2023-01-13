@@ -5,8 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dog Animal Shelter Walking Adoption Company</title>
 </head>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    .round-picture {
+        border-radius: 50%;
+    }
+
+    .thin-red-border {
+        border-color: orangered;
+        border-width: 5px;
+        border-style: solid;
+    }
+
+    h1 {
+        font-size: xx-large;
+        font-family: Lobster, monospace;
+        padding: 40px;
+    }
+    h2 {
+        font-family: monospace;
+        padding-left: 40px;
+    }
+    h3 {
+        font-family: monospace;
+        padding-left: 40px;
+    }
+
+    .red-text {
+        color: green;
+    }
+    p {
+        font-family: monospace;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .form-contact {
+        padding-left: 10px;
+    }
+</style>
 
 <body>
     <header>
@@ -15,111 +54,107 @@
             <a href="#service">Service</a>
             <a href="#contact"> Contacts</a>
         </nav>
-        <h1> Hello, Dog</h1>
+        <h1 class="red-text"> Hello, Dog</h1>
 
     </header>
-    <style>
-        .thin-red-border {
-            border-color: red;
-            border-width: 5px;
-            border-style: solid;
-        }
-    </style>
-    <img class="thin-red-border" width="400" height=auto src="img/20181007_140650_12.jpg" alt="Hriasia">
+    <main>
+        <img class="thin-red-border round-picture" width="400" height=auto src="img/20181007_140650_12.jpg"
+            alt="Hriasia the dog sitting and watching">
 
-    <div id="about">
-        <h3><span style="color:blue">About Us</span></h3>
-        <p>
-            Welcome to our dog and other animals shelter. Here you can find a friend or help other people to find their
-            4legged friends.
-        </p>
-    </div>
-
-    <div id="services">
-
-        <h4>What we do</h4>
-
-        <div>
-            <ul>
-                <li><a href="#rentdog">Rent a dog</a></li>
-                <li><a href="#adoptdog">Adopt a dog</a></li>
-                <li><a href="#donate">Donate to support shelter</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#contact">Ask a question</a></li>
-            </ul>
+        <div id="about">
+            <h3><span style="color:blue">About Us</span></h3>
+            <p>
+                Welcome to our dog and other animals shelter. Here you can find a friend or help other people to find
+                their
+                4legged friends.
+            </p>
         </div>
-    </div>
 
-    <h3> Table without contents ..</h3>
-    <table>
-        <tr>
-            <td> first cell</td>
-            <td> second cell.</td>
-            <td>third cell.</td>
-            <td>fourth cell.</td>
-        </tr>
-        <tr>
-            <td> first cell.</td>
-            <td> second cell.</td>
-            <td>third cell.</td>
-            <td>fourth cell.</td>
+        <div id="services">
 
-        </tr>
-    </table>
-    <hr>
+            <h4>What we do</h4>
 
+            <div>
+                <ul>
+                    <li><a href="#rentdog">Rent a dog</a></li>
+                    <li><a href="#adoptdog">Adopt a dog</a></li>
+                    <li><a href="#donate">Donate to support shelter</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#contact">Ask a question</a></li>
+                </ul>
+            </div>
+        </div>
 
-    <div id="contact">
-        <h3><span style="color:orangered">Contact</span></h3>
-        <form action="URL">
-            <p>First name:</p>
-            <input type="text" placeholder="First name" required>
-            <p>Last name:</p>
-            <input type="text" placeholder="Last name" required>
-            <p>Email:</p>
-            <input type="email" placeholder="example@email.com" required>
-            <p>Phone number:</p>
-            <input type="tel" placeholder="+3801234567" required>
+        <h3> Table without contents ..</h3>
+        <table>
+            <tr>
+                <td> first cell</td>
+                <td> second cell.</td>
+                <td>third cell.</td>
+                <td>fourth cell.</td>
+            </tr>
+            <tr>
+                <td> first cell.</td>
+                <td> second cell.</td>
+                <td>third cell.</td>
+                <td>fourth cell.</td>
 
-            <p><label for="message">Message: </label></p>
-
-
-            <p><textarea id="message" name="w3review" rows="4" cols="50"> Enter your query here</textarea></p>
-
-            <p> Please attach your document here.</p>
-
-            <input type="file" placeholder="Choose file">
-
-            <input type='submit' value='Send'>
-        </form>
-        <br>
-
-    </div>
-    <hr>
-
-    <div id="career">
-        <h3><span style="color:green">Help needed</span></h3>
-        <p>If you like dogs and want to help looking after our shelter dogs, just fill in a form below</p>
-        <form action="URL">
-            <p>First name:</p>
-            <input type="text" placeholder="First name" required>
-            <p>Last name:</p>
-            <input type="text" placeholder="Last name" required>
-            <p>Email:</p>
-            <input type="email" placeholder="example@email.com" required>
-            <p>Phone number:</p>
-            <input type="text" placeholder="+3801234567" required>
-
-            <p><label for="start">Choose your preferred date:</label></p>
-            <p><input type="date" min="2023-02-01" max="2023-12-30"></p>
+            </tr>
+        </table>
+        <hr>
 
 
-            <p></p>
-        </form>
-        <br>
+        <div id="contact">
+            <h3><span style="color:orangered">Contact</span></h3>
+            <form class="form-contact" action="URL">
+                <p>First name:</p>
+                <input type="text" placeholder="First name" required>
+                <p>Last name:</p>
+                <input type="text" placeholder="Last name" required>
+                <p>Email:</p>
+                <input type="email" placeholder="example@email.com" required>
+                <p>Phone number:</p>
+                <input type="tel" placeholder="+3801234567" required>
 
-    </div>
+                <p><label for="message">Message: </label></p>
 
+
+                <p><textarea id="message" name="w3review" rows="4" cols="50"> Enter your query here</textarea></p>
+
+                <p> Please attach your document here.</p>
+
+                <input type="file" placeholder="Choose file">
+
+                <input type='submit' value='Send'>
+            </form>
+            <br>
+
+        </div>
+        <hr>
+
+        <div id="career">
+            <h3><span style="color:green">Help needed</span></h3>
+            <p>If you like dogs and want to help looking after our shelter dogs, just fill in a form below</p>
+            <form action="URL">
+                <p>First name:</p>
+                <input type="text" placeholder="First name" required>
+                <p>Last name:</p>
+                <input type="text" placeholder="Last name" required>
+                <p>Email:</p>
+                <input type="email" placeholder="example@email.com" required>
+                <p>Phone number:</p>
+                <input type="text" placeholder="+3801234567" required>
+
+                <p><label for="start">Choose your preferred date:</label></p>
+                <p><input type="date" min="2023-02-01" max="2023-12-30"></p>
+
+
+                <p></p>
+            </form>
+            <br>
+
+        </div>
+    </main>
     <footer>
         <nav>
             <a href="#about">About Us</a>
